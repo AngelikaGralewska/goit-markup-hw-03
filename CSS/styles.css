@@ -14,6 +14,15 @@ body{
     color: #2196f3;
     text-decoration: none;
 }
+.logo-black{
+    font-family: 'Raleway';
+    font-style:normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.17;
+    color:#212121;
+    text-decoration: none;
+}
 .nav-links .nav-link{
     font-weight: 500;
     font-size: 14px;
@@ -22,6 +31,7 @@ body{
 }
 .nav-links .nav-link:hover{
     color: #2196f3;
+    cursor: pointer;
 }
 
 /*contact and address*/
@@ -149,4 +159,15 @@ body{
     line-height: 1.88;
     letter-spacing: 0.03em;
     color: #757575;
+}
+
+/*backgrounds*/
+.container-main{
+    background-color: #2F303A;
+}
+.container-footer{
+    background-color: #2F303A;
+}
+.container-our-team{
+    background-color:#F5F4FA;
 }
