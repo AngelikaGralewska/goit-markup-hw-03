@@ -1,31 +1,39 @@
 <!DOCTYPE html>
 <html lange="en">
 <head>
-    <link rel="stylesheet" href="./CSS/styles.css" />
-<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css" />
+    <link rel="stylesheet" href="file:///C:/VSC/HTML/CSS/styles.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
     rel="stylesheet">
 </head>
 <body>
-<header>
+<header class="container-header">
+    <div class="container">
     <!--logo-->
-        <a href=index.html class="logo-black"><span class="logo">Web</span>Studio</a>
+        <a href=./index.html class="logo-black"><span class="logo">Web</span>Studio</a>
     <!--main nawigation-->
-    <nav class="nav-links"><ul>
+    <nav class="container-nav-links">
+    <ul class="nav-links">
         <li class="nav-link">Agencja</li>
-        <li href=portfolio.html class="nav-link">Portfolio</li>
+        <li href=./portfolio.html class="nav-link">Portfolio</li>
         <li class="nav-link">Kontakt</li>
     </ul></nav>
     <!--contact-->
-    <a href="mailto:info@devstudio.com" class="contact-heder">info@devstudio.com</a>
+    <p class="container-contact-header"><a href="mailto:info@devstudio.com" class="contact-heder">info@devstudio.com</a>
     <a href="tel:+48 111 111 111" class="contact-heder">+48 111 111 111</a></p>
+    </div>
     </header>
     <main>
         <section class="container-main">
-    <h1 class="main-title"> ROZWIĄZANIA DLA WASZEGO BIZNESU</h1>
+         <div class="container">
+    <h1 class="main-title"> EFEKTYWNE ROZWIĄZANIA 
+        DLA WASZEGO BIZNESU</h1>
     <button class="main-button" type="button">Zamów usługę</button>
+        </div>
         </section>
-    <section>
-    <ul>
+    <section class="container-lorem-ipsum">
+         <div class="container">
+    <ul class="container-list-lorem-ipsum">
 <li><h3 class="title-1">LOREM IPSUM</h3>
 <p class="text-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu sem. Sed non sodales dui. Interdum et malesuada</p></li>
 <li><h3 class="title-1">LOREM IPSUM</h3>
@@ -35,45 +43,49 @@
 <li><h3 class="title-1">LOREM IPSUM</h3>
 <p class="text-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu sem. Sed non sodales dui. Interdum et malesuada</p></li>
     </ul>
+    </div>
     </section>
-    <section>
+    <section class="container-what-we-doing">
+         <div class="container">
 <h2 class="section-title">Czym się zajmujemu</h2>
-<ul>
+<ul class="container-what-we-doing-photos">
 <li><img
-src="./images/img1.jpg"
+src="file:///C:/VSC/HTML/images/img1.jpg"
 alt="man working on laptop"
-width="370"
-height="294"
+width="350"
+height="274"
 />
 </li>
 <li>
 <img
-src="./images/img2.jpg"
+src="file:///C:/VSC/HTML/images/img2.jpg"
 alt="woman working on a laptop and mobile phone"
-width="370"
-height="294"
+width="350"
+height="274"
 />
 </li>
 <li>
 <img
-src="./images/img3.jpg"
+src="file:///C:/VSC/HTML/images/img3.jpg"
 alt="man working on thetablet"
-width="370"
-height="294"
+width="350"
+height="274"
 />
 </li>
 </ul>
+</div>
     </section>
     <section class="container-our-team">
-<h2 class="section-title">Nasz zespół</h2>
-<ul>
+    <div class="container">
+<h2 class="section-title">Nasz zespół</h2><br/>
+<ul class="container-co-worker-list">
     <li>
-<figure>
+<figure class="container-co-worker">
     <img
-src="file:./images/jd1.jpg"
+src="file:///C:/VSC/HTML/images/jd1.jpg"
 alt="John Doe Product Designer"
-width="270"
-height="260"
+width="260"
+height="250"
 />
 <figcaption>
     <p class="co-worker"><b>John Doe</b></p>
@@ -82,12 +94,12 @@ height="260"
 </figure>
     </li>
     <li>
-<figure>
+<figure class="container-co-worker">
     <img
-    src="./images/jd2.jpg"
+    src="file:///C:/VSC/HTML/images/jd2.jpg"
     alt="John Doe Frontend Developer"
-    width="270"
-    height="260"
+    width="260"
+    height="250"
     />
     <figcaption>
         <p class="co-worker"><b>John Doe</b></p>
@@ -96,12 +108,12 @@ height="260"
 </figure>
 </li>
 <li>
-<figure>
+<figure class="container-co-worker">
     <img
-    src="./images/jd3.jpg"
+    src="file:///C:/VSC/HTML/images/jd3.jpg"
     alt="John Doe Marketing"
-    width="270"
-    height="226"
+    width="260"
+    height="250"
     />
     <figcaption>
         <p class="co-worker"><b>John Doe</b></p>
@@ -110,12 +122,12 @@ height="260"
 </figure>
 </li>
 <li>
-<figure>
+<figure class="container-co-worker">
     <img
-    src="./images/jd4.jpg"
+    src="file:///C:/VSC/HTML/images/jd4.jpg"
     alt="John Doe Ul Designer"
-    width="270"
-    height="260"
+    width="260"
+    height="250"
     />
     <figcaption>
         <p class="co-worker"><b>John Doe</b></p>
@@ -124,15 +136,18 @@ height="260"
 </figure>
 </li>
 </ul>
+</div>
 </section>
 </main>
 <footer class="container-footer">
-        <a href=index.html class="logo-black"><span class="logo">Web</span>Studio</a>
-     <address class="address">
+     <div class="container">
+        <a href=index.html class="logo-white"><span class="logo">Web</span>Studio</a>
+    <address class="address">
         m. Warszawa, Aleje Jerozolimskie 21 <br/>
         <a href="mailto:info@devstudio.com" class="contact-footer">info@devstudio.com</a> <br/>
         <a href="tel:+48 111 111 111" class="contact-footer">+48 111 111 111</a>
     </address>
+     <div class="container">
 </footer>
 </body>
 </html>
