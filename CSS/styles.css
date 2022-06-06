@@ -13,9 +13,6 @@ body{
 .container{
     width: 1200px;
     margin: 0 auto;
-    padding: 15px;
-    align-items: center;
-
 }
 
 /*logo and main navigation*/
@@ -68,10 +65,18 @@ body{
     letter-spacing: 0.02em;
     color: #757575;
     text-decoration: none;
-    margin-left: 15px;
+    margin-left: 5px;
+    cursor: pointer;
 }
 .contact-heder:hover{
     color: #2196f3;
+}
+.contact-heder-icon{
+    margin-left: 15px;
+    fill: #757575;
+}
+.contact-heder-icon:hover{
+    fill: #2196f3;
 }
 .address, .contact-footer{
     font-weight: 400;
@@ -194,9 +199,33 @@ body{
     color: #757575;
 }
 
+/*customers*/
+.customers-icon-list{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.customer-icon{
+    fill: #AFB1B8;
+    border: 1px solid #AFB1B8;
+    border-radius:4px;
+    cursor: pointer;
+}
+.customer-icon:hover{
+    fill:#2196F3;
+    border: 1px solid #2196F3;
+}
+
+.lorem-ipsum-item{
+    background-color: #F5F4FA;
+    border-radius: 4px;
+}
+
 /*containers*/
 .container-main{
     background-color: #2F303A;
+    background: linear-gradient( rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),url(file:///C:/VSC/HTML/images/background1.jpg) no-repeat;
     min-height: 600px;
     display:flex;
     justify-content: center;
@@ -220,6 +249,7 @@ body{
     justify-content: space-between;
     list-style: none;
     margin: 0px;
+
 }
 .container-co-worker{
     background-color: #ffffff;
@@ -231,9 +261,8 @@ body{
 .container-header{
     min-height: 80px;
     border-bottom: 1px solid #ECECEC;
-    display: inline-flex;
-    justify-content: space-between;
-    margin-left: 60px;
+    display: flex;
+    align-items: center;
 }
 .container-nav-links{
     display: inline-flex;
@@ -242,18 +271,15 @@ body{
 }
 .container-contact-header{
     display: inline-flex;
+    justify-content: right;
 }
 .container-lorem-ipsum{
-    display: flex;
-    justify-content: space-between;
     padding-top: 94px;
     padding-bottom: 94px;
-    align-content: center;
 }
 .container-list-lorem-ipsum{
     display: flex;
     list-style: none;
-    padding: 0px 15px;
 }
 .container-what-we-doing{
     padding-bottom: 94px;
@@ -263,8 +289,6 @@ body{
     display: flex;
     list-style: none;
     justify-content: space-between;
-    margin-left: 15px;
-    margin-right: 15px;
 }
 .container-portfolio-buttons{
     display: flex;
@@ -296,7 +320,14 @@ body{
     padding-bottom: 10px;
     border: 1px solid #ECECEC;
 }
+.container-portfolio-projects-item:hover{
+    box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16), 0px 4px 4px 0px rgba(0, 0, 0, 0.06), 0px 1px 1px 0px rgba(0, 0, 0, 0.12);
+}
 .container-portfolio-projects-text{
     padding-left: 15px;
     padding-right: 15px;
+}
+.container-our-customers{
+    padding-top: 94px;
+    padding-bottom: 94px;
 }
