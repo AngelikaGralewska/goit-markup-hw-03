@@ -73,13 +73,6 @@ body{
 .contact-heder:hover{
     color: #2196f3;
 }
-.contact-heder-icon{
-    margin-left: 15px;
-    fill: #757575;
-}
-.contact-heder-icon:hover{
-    fill: #2196f3;
-}
 .address, .contact-footer{
     font-weight: 400;
     font-size: 14px;
@@ -201,24 +194,6 @@ body{
     color: #757575;
 }
 
-/*customers*/
-.customers-icon-list{
-    list-style: none;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-.customer-icon{
-    fill: #AFB1B8;
-    border: 1px solid #AFB1B8;
-    border-radius:4px;
-    cursor: pointer;
-}
-.customer-icon:hover{
-    fill:#2196F3;
-    border: 1px solid #2196F3;
-}
-
 .lorem-ipsum-item{
     background-color: #F5F4FA;
     border-radius: 4px;
@@ -227,7 +202,6 @@ body{
 /*containers*/
 .container-main{
     background-color: #2F303A;
-    background: linear-gradient( rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),url(file:///C:/VSC/HTML/images/background1.jpg) no-repeat;
     min-height: 600px;
     display:flex;
     justify-content: center;
