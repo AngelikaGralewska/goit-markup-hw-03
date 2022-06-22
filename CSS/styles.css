@@ -265,6 +265,7 @@ body{
     border-bottom: 1px solid #ECECEC;
     display: flex;
     align-items: center;
+    justify-items: space-between;
 }
 .container-nav-links{
     display: inline-flex;
