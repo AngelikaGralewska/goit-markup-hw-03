@@ -51,6 +51,8 @@ body{
     display:inline-flex;
     list-style: none;
     margin-right: 10px;
+    text-decoration: none;
+    color: #212121;
 }
 .nav-links .nav-link:hover{
     color: #2196f3;
@@ -326,8 +328,4 @@ body{
 .container-portfolio-projects-text{
     padding-left: 15px;
     padding-right: 15px;
-}
-.container-our-customers{
-    padding-top: 94px;
-    padding-bottom: 94px;
 }
