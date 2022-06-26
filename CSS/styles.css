@@ -13,6 +13,7 @@ body{
 .container{
     width: 1200px;
     margin: 0 auto;
+      display: flexbox
 }
 
 /*logo and main navigation*/
@@ -210,8 +211,6 @@ body{
 .container-footer{
     background-color: #2F303A;
     min-height: 252px;
-    display: flex;
-    flex-direction: column;
     padding: 94px 0px;
 }
 .container-our-team{
