@@ -13,7 +13,6 @@ body{
 .container{
     width: 1200px;
     margin: 0 auto;
-      display: flexbox
 }
 
 /*logo and main navigation*/
@@ -55,9 +54,12 @@ body{
     text-decoration: none;
     color: #212121;
 }
-.nav-links .nav-link:hover{
+.nav-link:hover{
     color: #2196f3;
     cursor: pointer;
+}
+.nav-link:visited{
+    text-decoration: none;
 }
 
 /*contact and address*/
@@ -105,14 +107,13 @@ body{
     line-height: 1.16;
     text-align: center;
     letter-spacing: 0.03em;
+    margin-top: 0px;
 }
 .title-1{
     font-weight: 700;
     font-size: 14px;
     line-height: 1.17;
-    letter-spacing: 0.03em;
-    margin-left: 15px;
-    margin-right: 15px;
+    letter-spacing: 0.03em
 }
 
 /*buttons*/
@@ -160,7 +161,6 @@ body{
     line-height: 1.17;
     letter-spacing: 0.03em;
     color: #757575;
-    margin:0px 15px
 }
 
 /*team*/
@@ -195,11 +195,6 @@ body{
     color: #757575;
 }
 
-.lorem-ipsum-item{
-    background-color: #F5F4FA;
-    border-radius: 4px;
-}
-
 /*containers*/
 .container-main{
     background-color: #2F303A;
@@ -223,8 +218,7 @@ body{
     display: flex;
     justify-content: space-between;
     list-style: none;
-    margin: 0px;
-
+    padding-left: 0px;
 }
 .container-co-worker{
     background-color: #ffffff;
@@ -248,6 +242,7 @@ body{
 .container-contact-header{
     display: inline-flex;
     justify-content: right;
+    list-style:none;
 }
 .container-lorem-ipsum{
     padding-top: 94px;
@@ -256,37 +251,37 @@ body{
 .container-list-lorem-ipsum{
     display: flex;
     list-style: none;
+    justify-content: space-between;
+    padding-left: 0px;
 }
 .container-what-we-doing{
     padding-bottom: 94px;
-
 }
 .container-what-we-doing-photos{
     display: flex;
     list-style: none;
     justify-content: space-between;
+    padding-left: 0px;
 }
 .container-portfolio-buttons{
-    display: flex;
     padding-top:94px;
-    align-content: center;
-    justify-content: center;
 }
 .container-portfolio-buttons-list{
     display: flex;
     list-style: none;
     align-items: center;
     justify-content: center;
+    padding-left: 0px;
 }
 .container-portfolio-projects{
     padding-bottom: 94px;
-    display: flex;
 }
 .container-portfolio-projects-list-items{
     list-style: none;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    padding-left: 0px;
 }
 .container-portfolio-projects-item{
     margin-top: 0px;
@@ -295,6 +290,7 @@ body{
     margin-bottom: 30px;
     padding-bottom: 10px;
     border: 1px solid #ECECEC;
+    cursor:pointer;
 }
 .container-portfolio-projects-item:hover{
     box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16), 0px 4px 4px 0px rgba(0, 0, 0, 0.06), 0px 1px 1px 0px rgba(0, 0, 0, 0.12);
